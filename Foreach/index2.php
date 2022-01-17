@@ -26,3 +26,17 @@ $college = array(
 echo "10.Les élèves du collège : <br>";
 
 //Ajoutez votre code ici
+
+foreach ($college["Sixieme"] as $key => $value) {
+    echo implode(" ", $value) . "<br>";
+}
+
+foreach ($college["Cinquieme"] as $key => $value) {
+    echo implode(" ", $value) . "<br>";
+}
+
+foreach ($college["Quatrieme"] as $key => $value) {
+    echo implode(" ", $value) . "<br>";
+}
+
+
